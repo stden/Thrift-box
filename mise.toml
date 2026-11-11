@@ -1,0 +1,20 @@
+[tools]
+java = "8"
+gradle = "8.10.2"
+
+[tasks.check]
+run = "git diff --check"
+
+[tasks.build]
+run = "./gradlew build"
+
+[tasks.test]
+run = "./gradlew test"
+
+[tasks."thrift-box:build"]
+run = "gradle build"
+dir = "thrift-box"
+
+[tasks."thrift-box:test"]
+run = "gradle test"
+dir = "thrift-box"
