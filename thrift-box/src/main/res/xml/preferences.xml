@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:selectable="true"
+    android:shouldDisableView="true">
+
+    <PreferenceCategory android:title="@string/settings">
+        <ListPreference
+            android:defaultValue="255"
+            android:dialogTitle="@string/pref_widget_transparency"
+            android:key="pref_widget_transparency_key"
+            android:title="@string/pref_widget_transparency" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:defaultValue="@android:color/black"
+            android:key="pref_widget_text_color_key"
+            android:summary="@string/dialog_color_picker"
+            android:title="@string/pref_widget_text_color" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <PreferenceScreen
+            android:key="version"
+            android:selectable="false"
+            android:title="@string/app_name" />
+
+        <PreferenceScreen
+            android:key="developer"
+            android:summary="@string/developer_summary"
+            android:title="@string/developer" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

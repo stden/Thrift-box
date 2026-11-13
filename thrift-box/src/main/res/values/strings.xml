@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Пять копеек</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="dot">.</string>
+    <string name="zero">0</string>
+    <string name="backspace">↩</string>
+
+    <string name="enter_button">Внести</string>
+    <string name="enter_value_hint">сумма…</string>
+    <string name="enter_value_done">Внесено</string>
+    <string name="enter_value_invalid">Введено некорректное значение. Запись не может быть добавлена</string>
+    <string name="list_empty">Список пуст</string>
+    <string name="delete_label">Удалить</string>
+    <string name="delete_msg">Вы действительно хотите удалить запись:</string>
+
+    <string name="week">неделя:</string>
+    <string name="month">месяц:</string>
+
+    <!-- Настройки -->
+    <!-- Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">Skip</string>
+
+    <string name="about">О приложении</string>
+    <string name="version">версия</string>
+    <string name="license_info">GNU GPLv3. Распространяется свободно.</string>
+    <string name="developer">Разработчик</string>
+    <string name="developer_summary">Другие приложения разработчика</string>
+    <string name="url_other_apps">https://play.google.com/store/apps/developer?id=Alexander+Vozjennikov</string>
+
+    <string name="settings">Настройки</string>
+    <string name="pref_widget_transparency">Прозрачность виджета</string>
+    <string name="pref_widget_text_color">Цвет текста в виджете</string>
+    <string name="dialog_color_picker">Выбор цвета</string>
+    <string name="press_color_to_apply">Нажмите на цвет для выбора</string>
+
+    <string name="comment">Комментарий к расходу:</string>
+    <string name="ruble_small">р.</string>
+
+</resources>
